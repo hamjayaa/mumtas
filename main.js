@@ -12,7 +12,7 @@ const PRODUCT_LIST = [
   { name: "Sehat Ayu CicaRosella Serum", desc: "Serum wajah menenangkan dengan Centella & Rose.", img: "https://source.unsplash.com/random/1200x1200/?skincare,serum" },
   { name: "Mumtas Mie - Moringa", desc: "Mie mocaf fungsional dengan ekstrak daun kelor.", img: "https://source.unsplash.com/random/1200x1200/?noodles,moringa" },
   { name: "Mumtazzio Gingerissimo", desc: "Minuman jahe merah pilihan, praktis untuk kehangatan.", img: "https://source.unsplash.com/random/1200x1200/?ginger,drink" },
-  { name: "Minyak Herba Mumtas", desc: "Minyak gosok serbaguna untuk pijat dan relaksasi.", img: "https://source.unsplash.com/random/1200x1200/?massage,oil" }
+  { name: "Minyak Herba Mumtas", desc: "Minyak gosok serbaguna untuk pijat dan relaksasi.", img: "https://res.cloudinary.com/doqzgozyt/image/upload/v1758605999/Gemini_Generated_Image_l7t4lyl7t4lyl7t4_wbohye.png" }
 ];
 const GALLERY_IMAGES = [
   "https://res.cloudinary.com/doqzgozyt/image/upload/v1758520870/Madu_Multiflora_zuyyj3.png",
