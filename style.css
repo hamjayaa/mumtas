@@ -86,3 +86,14 @@ body:not(.scrolling)::-webkit-scrollbar-thumb {
 body.scrolling::-webkit-scrollbar-thumb:hover {
   background: #FFD700;
 }
+
+/* Menyembunyikan tombol navigasi dan unduh secara default */
+.modal-controls {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Menampilkan tombol saat div hover */
+.modal-image-container:hover .modal-controls {
+  opacity: 1;
+}
