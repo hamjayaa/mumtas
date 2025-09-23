@@ -73,11 +73,11 @@ body {
 
 /* Custom scrollbar yang disembunyikan saat diam */
 body::-webkit-scrollbar {
-  width: 6px;
+  width: 2px;
 }
 body::-webkit-scrollbar-thumb {
   background: #FFC837;
-  border-radius: 4px;
+  border-radius: 2px;
   transition: background-color 0.4s ease-out;
 }
 body:not(.scrolling)::-webkit-scrollbar-thumb {
