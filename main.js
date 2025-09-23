@@ -7,7 +7,7 @@ const HERO_IMAGES = [
   "https://res.cloudinary.com/doqzgozyt/image/upload/v1758520870/Body_Wash_axx7su.png?q=80&w=1600&auto=format&fit-crop",
 ];
 const PRODUCT_LIST = [
-  { name: "Kopi Radix Jumbo", desc: "Kopi herbal 7 akar, praktis dan berkhasiat.", img: "https://source.unsplash.com/random/1200x1200/?coffee,herbal" },
+  { name: "Kopi Radix Jumbo", desc: "Kopi herbal 7 akar, praktis dan berkhasiat.", img: "https://res.cloudinary.com/doqzgozyt/image/upload/v1758607885/Gemini_Generated_Image_lacm82lacm82lacm_mc8mvs.png" },
   { name: "Susu Kambing NGM", desc: "Susu kambing etawa dengan gula aren, sehat dan nikmat.", img: "https://source.unsplash.com/random/1200x1200/?milk,goat" },
   { name: "Sehat Ayu CicaRosella Serum", desc: "Serum wajah menenangkan dengan Centella & Rose.", img: "https://source.unsplash.com/random/1200x1200/?skincare,serum" },
   { name: "Mumtas Mie - Moringa", desc: "Mie mocaf fungsional dengan ekstrak daun kelor.", img: "https://source.unsplash.com/random/1200x1200/?noodles,moringa" },
