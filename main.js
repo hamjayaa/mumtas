@@ -279,7 +279,7 @@ function initProdukUnggulan() {
             const gradientBorder = item.querySelector('.gradient-border');
             const cardContent = item.querySelector('.card-content');
             if (gradientBorder) {
-                gradientBorder.style.opacity = isActive ? '0.2' : '0';
+                gradientBorder.style.opacity = isActive ? '0.3' : '0';
             }
             
             if (cardContent) {
