@@ -354,8 +354,8 @@ function initSemuaProduk() {
             <div class="accordion-panel">
                 <div class="pt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     ${items.map(p => `
-                        <div style="perspective: 800px">
-                            <button data-product-code="${p.code}" class="product-card relative rounded-2xl overflow-hidden w-full" style="transform-style: preserve-3d;">
+                        <div style="perspective: 1500px">
+                            <button data-product-code="${p.code}" class="product-card relative rounded-2xl w-full" style="transform-style: preserve-3d;">
                                 <img src="${p.img}" alt="${p.name}" class="w-full aspect-square object-cover" />
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-transparent p-3 flex flex-col justify-end items-start text-left">
                                     <h3 class="text-base font-semibold ${goldText}">${p.name}</h3>
