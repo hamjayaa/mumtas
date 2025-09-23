@@ -273,13 +273,13 @@ function initProdukUnggulan() {
             const isActive = d === 0;
 
             item.style.transform = `translateX(${translateX}px) rotateY(${rotateY}deg) scale(${scale})`;
-            item.style.opacity = isActive ? '1' : '0.5';
+            item.style.opacity = isActive ? '1' : '1';
             item.style.zIndex = len - Math.abs(d);
 
             const gradientBorder = item.querySelector('.gradient-border');
             const cardContent = item.querySelector('.card-content');
             if (gradientBorder) {
-                gradientBorder.style.opacity = isActive ? '1' : '0';
+                gradientBorder.style.opacity = isActive ? '0.5' : '0';
             }
             
             if (cardContent) {
