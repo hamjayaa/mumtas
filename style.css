@@ -73,7 +73,7 @@ body {
 
 /* Custom scrollbar yang disembunyikan saat diam */
 body::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 body::-webkit-scrollbar-thumb {
   background: #FFC837;
